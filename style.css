@@ -1,0 +1,116 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+.logo{
+    width: 10%;
+    height: auto;
+}
+.topnav{
+    flex: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 50px;    
+}
+.topnav a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: darkgreen;
+    cursor: pointer;
+    padding: 15px 20px;
+    font-weight: bold;    
+}
+.menu{
+    position: fixed;
+    right: 0;
+}
+.main{
+    /* 100%for all items within main section */
+    display: flex;
+    font-size: 1.6rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.quick-links{
+    /* 10% will be allocated to quick links */
+    flex: 10%;
+    margin-top: 10px;
+    background-color: lightgrey;    
+}
+
+.homeimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-article{
+    /* 90% will be allocated to main article */
+    flex: 90%;
+    margin-top: 10px;
+}
+.main-article p{
+    column-count: 5;
+    margin: 20px;
+}
+.main-footer{
+    position: sticky;
+    font-size: 1.6rem;
+    display: flex;
+    width: 100%;
+    background-color: lightskyblue;
+    color: white;
+    /* position: fixed;
+    bottom: 0; */
+}
+.main-footer div{
+    flex: 33.33%;
+    text-align: center;
+}
+.main-footer ul{
+    list-style-type: none;
+}
+.main-footer li:first-child{
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+
+.product-container{
+    flex:90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.product{
+    box-shadow: 0 4px 8px 0 grey;
+    /* border: 1px solid grey; */
+    margin: 20px;
+}
+.product img{
+    width: 70%;
+}
+.product button{
+    width: 100%;
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+video{
+    width:30%;
+    border-width: 20px;
+    border-bottom: 2px  ;
+}
